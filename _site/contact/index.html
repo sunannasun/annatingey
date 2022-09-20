@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Formspree Contact Form | Étoile</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Formspree Contact Form" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Magazine Jekyll theme for writers and bloggers." />
+<meta property="og:description" content="Magazine Jekyll theme for writers and bloggers." />
+<link rel="canonical" href="http://localhost:4000/contact/" />
+<meta property="og:url" content="http://localhost:4000/contact/" />
+<meta property="og:site_name" content="Étoile" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/contact/","@type":"WebPage","description":"Magazine Jekyll theme for writers and bloggers.","headline":"Formspree Contact Form","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <meta property="og:image" content="http://localhost:4000/uploads/"/>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700%7CZCOOL+XiaoWei" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="Étoile" href="/feed.xml">
+  <script src="/assets/js/main.min.js"></script>
+  
+</head>
+
+
+    <body>
+
+    <header class="uk-margin-medium-bottom">
+
+  <div>
+    <div class="uk-container uk-text-center">
+      <div class="uk-section uk-section-xsmall">
+        <a class="uk-logo uk-margin-small-top uk-display-inline-block" href="/">
+          
+            Étoile
+          
+        </a>
+      </div>
+    </div>
+  </div>
+
+  
+    <div data-uk-sticky="animation: uk-animation-slide-top; top: 200; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-box-shadow-small;">
+      <nav class="uk-navbar-container">
+        
+<div><hr class="uk-margin-remove"></div>
+<div class="uk-container">
+    <div data-uk-navbar>
+        <div class="uk-navbar-left">
+            
+            <div>
+                <a class="uk-navbar-toggle" data-uk-search-icon="ratio: 0.9" href="#"></a>
+                <div class="uk-drop uk-background-default" data-uk-drop="mode: click; pos: left-center; offset: 0">
+                    <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
+                        <input id="search-input" class="uk-search-input" type="search" placeholder="Search..." autofocus>
+                        <ul id="search-results" class="uk-position-absolute uk-width-1-1 uk-list uk-box-shadow-medium"></ul>
+                    </form>
+                </div>
+            </div>
+            <script>
+                SimpleJekyllSearch({
+                searchInput: document.getElementById('search-input'),
+                resultsContainer: document.getElementById('search-results'),
+                noResultsText: '<li>No results found</li>',
+                searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+                limit: 100,
+                json: "/search.json"
+                });
+            </script>
+            
+  
+
+            <ul class="uk-navbar-nav uk-visible@m">
+                
+            </ul>
+        </div>
+
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav uk-visible@m">
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="/" >Home</a>
+                          
+                          
+                        </li>
+                    
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="/blog/" >All Posts</a>
+                          
+                          
+                        </li>
+                    
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="/category/business/" >Business</a>
+                          
+                          
+                        </li>
+                    
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="/category/culture/" >Culture</a>
+                          
+                          
+                        </li>
+                    
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="/category/travel/" >Travel</a>
+                          
+                          
+                        </li>
+                    
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="/category/sport/" >Sport</a>
+                          
+                          
+                        </li>
+                    
+                
+                    
+                    
+                    
+                        <li>
+                          
+                            <a href="#">Pages</a>
+                          
+                          
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                  
+                                    
+                                      
+                                      
+                                      <li><a href="/blog/">Blog</a></li>
+                                    
+                                  
+                                    
+                                      
+                                      
+                                      <li class="uk-active"><a href="/contact/">Contact</a></li>
+                                    
+                                  
+                                    
+                                      
+                                      
+                                      <li><a href="/sidebar-left/">Sidebar Left</a></li>
+                                    
+                                  
+                                    
+                                      
+                                      
+                                      <li><a href="/sidebar-right/">Sidebar Right</a></li>
+                                    
+                                  
+                                    
+                                      
+                                      
+                                      <li><a href="/404/">404</a></li>
+                                    
+                                  
+                                </ul>
+                            </div>
+                          
+                        </li>
+                    
+                
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@m">
+                
+            </ul>
+
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-right@m uk-visible@m social uk-margin-left">
+              
+<div class="uk-first-column">
+    <a href="https://twitter.com/" data-uk-icon="icon: twitter; ratio: 0.8" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/" data-uk-icon="icon: facebook; ratio: 0.8" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+<div>
+    <a href="https://www.instagram.com/" data-uk-icon="icon: instagram; ratio: 0.8" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.youtube.com/" data-uk-icon="icon: youtube; ratio: 0.8" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+            </div>
+
+            
+
+            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-navbar-toggle-icon data-uk-toggle></a>
+
+        </div>
+
+    </div>
+    
+</div>
+<div class="uk-margin-remove"><hr></div>
+      </nav>
+    </div>
+  
+  
+</header>
+
+
+    
+
+
+  <div class="uk-container uk-margin-large uk-container-xsmall">
+
+
+  <article class="uk-article">
+
+    
+      <h1 class="page-title uk-margin-medium-bottom">Formspree Contact Form</h1>
+    
+
+    <div class="content-primary">
+        <p>The they’d phase ready well, do word high from the answering I cognitive different the once it I design especially design the they. Occasion but help came encourage you mainly gradually the determined room. Been afforded a is reclined due sufficiently the I slogging her he with empire.</p>
+
+<form class="uk-form-stacked uk-margin-medium" method="POST" action="https://formspree.io/my_name@gmail.com" accept-charset="UTF-8">
+      <div class="uk-margin-medium-bottom">
+          <label class="uk-form-label uk-margin-small-bottom" for="name">Name</label>
+          <div class="uk-form-controls">
+              <input id="name" class="uk-input uk-form-large uk-border-rounded" name="name" type="text" required="" />
+          </div>
+      </div>
+      <div class="uk-margin-medium-bottom">
+          <label class="uk-form-label uk-margin-small-bottom" for="email">Email</label>
+          <div class="uk-form-controls">
+              <input id="email" class="uk-input uk-form-large uk-border-rounded" name="_replyto" type="email" required="" />
+          </div>
+      </div>
+      <div class="uk-margin-medium-bottom">
+          <label class="uk-form-label uk-margin-small-bottom" for="subject">Subject</label>
+          <div class="uk-form-controls">
+              <input id="subject" class="uk-input uk-form-large uk-border-rounded" name="_subject" type="text" />
+          </div>
+      </div>
+      <div class="uk-margin-medium-bottom">
+          <label class="uk-form-label uk-margin-small-bottom" for="message">Message</label>
+          <div class="uk-form-controls">
+              <textarea id="message" class="uk-textarea uk-form-large" name="message" rows="5" minlength="10" required=""></textarea>
+          </div>
+      </div>
+      <div>
+          
+          <input type="hidden" name="_next" value="http://localhost:4000/thanks/" />
+          
+          <input type="text" name="_gotcha" style="display:none" />
+          <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-border-rounded" type="submit" value="Send" />
+      </div>
+  </form>
+
+
+    </div>
+
+  </article>
+
+
+
+</div>
+
+    <footer class="sidebar-footer uk-margin-top uk-section uk-background-secondary uk-light uk-text-center uk-text-left@m">
+  <div class="uk-container">
+    <div class="uk-child-width-expand@m" data-uk-grid>
+
+      
+        <div class="widget">
+  <h4>RECENT POSTS</h4>
+  <ul class="uk-list">
+  
+      <li><a href="/cabs/">New York City Cabs Under Pressure To Lower Prices</a></li>
+  
+      <li><a href="/urban/">Urban Art Projects Approved By Council This Spring</a></li>
+  
+      <li><a href="/freelancers/">Freelancers to reach 50 percent of work force by 2020</a></li>
+  
+      <li><a href="/food-market/">Best food market in Chiang Mai</a></li>
+  
+  </ul>
+</div>
+
+      
+        <div class="widget">
+  <h4>ABOUT</h4>
+  <ul class="uk-list">
+    
+      
+      
+      
+        <li><a href="/#/" >About Us</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/#/" >Our Story</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/#/" >Contribute</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/#/" >Terms</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/contact/" >Contact</a></li>
+      
+    
+  </ul>
+</div>
+
+      
+        <div class="widget">
+  <h4>PRODUCTS</h4>
+  <ul class="uk-list">
+    
+      
+      
+      
+        <li><a href="/#/" >Advertising</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/#/" >Featured Story</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/#/" >Donations</a></li>
+      
+    
+      
+      
+      
+        <li><a href="/#/" >Charity</a></li>
+      
+    
+  </ul>
+</div>
+
+      
+        <div class="widget">
+  <h4>CATEGORIES</h4>
+  <ul class="uk-list">
+  
+      <li><a class="uk-text-capitalize" href="/category/business">business</a></li>
+  
+      <li><a class="uk-text-capitalize" href="/category/culture">culture</a></li>
+  
+      <li><a class="uk-text-capitalize" href="/category/sport">sport</a></li>
+  
+      <li><a class="uk-text-capitalize" href="/category/travel">travel</a></li>
+  
+  </ul>
+</div>
+
+      
+        <div class="widget">
+  <h4>CONTRIBUTORS</h4>
+  <ul class="uk-list">
+    
+      <li><a href="/authors/john-nolten/">John Nolten</a></li>
+  
+      <li><a href="/authors/sarah-hollen/">Sarah Hollen</a></li>
+  
+      <li><a href="/authors/tom-baker/">Tom Acosta</a></li>
+  
+  </ul>
+</div>
+
+      
+        <div class="widget">
+  <div class="uk-margin">
+    <a class="uk-logo" href="/">
+      
+        Étoile
+      
+    </a>
+  </div>
+  
+  
+    <div class="uk-margin copyright">Magazine Jekyll theme for writers and bloggers.</div>
+  
+  
+    <p>Made by <a href="https://unbound.studio/">human</a> in Bratislava, Slovakia.</p>
+  
+  
+    <div class="uk-margin">
+      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-flex-left@m">
+        
+<div class="uk-first-column">
+    <a href="https://twitter.com/" data-uk-icon="icon: twitter; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/" data-uk-icon="icon: facebook; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+<div>
+    <a href="https://www.instagram.com/" data-uk-icon="icon: instagram; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.youtube.com/" data-uk-icon="icon: youtube; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+      </div>
+    </div>
+  
+</div>
+
+      
+    
+    </div>
+  </div>
+</footer>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+        <a class="uk-logo uk-margin-small-bottom uk-margin-top uk-display-block" href="/">Étoile</a>
+        <ul class="uk-nav uk-nav-default">
+            
+                
+            <li><a href="/" >Home</a></li>
+            
+                
+            <li><a href="/blog/" >Blog</a></li>
+            
+                
+            <li><a href="/category/business/" >Business</a></li>
+            
+                
+            <li><a href="/category/culture/" >Culture</a></li>
+            
+                
+            <li><a href="/category/travel/" >Travel</a></li>
+            
+                
+            <li><a href="/category/sport/" >Sport</a></li>
+            
+                
+            <li><a href="/contact/" >Contact</a></li>
+            
+                
+            <li><a href="/404/" >404</a></li>
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+<div class="uk-first-column">
+    <a href="https://twitter.com/" data-uk-icon="icon: twitter; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+<div>
+    <a href="https://www.facebook.com/" data-uk-icon="icon: facebook; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+<div>
+    <a href="https://www.instagram.com/" data-uk-icon="icon: instagram; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+
+<div>
+    <a href="https://www.youtube.com/" data-uk-icon="icon: youtube; ratio: " class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    </body>
+
+</html>
