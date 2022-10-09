@@ -8,29 +8,16 @@ center:
   - title: All Posts
     url: /blog/
 
-  - title: Business
-    url: /category/business/
+  - title: Dining
+    url: /category/dining/
 
-  - title: Culture
-    url: /category/culture/
+  - title: Entertaining
+    url: /category/entertaining/
 
-  - title: Travel
-    url: /category/travel/
+  - title: Decor
+    url: /category/decor/
 
-  - title: Sport
-    url: /category/sport/
-
-  - title: Pages
-    dropdown:
-      - title: Blog
-        url: /blog/
-      - title: Contact
-        url: /contact/
-      - title: Sidebar Left
-        url: /sidebar-left/
-      - title: Sidebar Right
-        url: /sidebar-right/
-      - title: 404
-        url: /404/
+  - title: Contact
+    url: /contact/
 
 right:

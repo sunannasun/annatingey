@@ -1,4 +1,4 @@
 ---
-tag: business
-permalink: "/category/business/"
+tag: dining
+permalink: "/category/dining/"
 ---

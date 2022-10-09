@@ -1,9 +1,11 @@
 // Modify primary template color
 $global-primary-background: #de7a93;
 // Modify body font
-$global-font-family: 'Lora', serif; 
+$global-font-family: 'Sabon', sans-serif; 
 // Modify article title font
-$aticle-title-font-family: 'ZCOOL XiaoWei', serif;
+$aticle-title-font-family: 'Libre Caslon Display', sans-serif;
+$font-san-serif: 'Sackers Gothic Medium', sans-serif;
+$font-section-title: 'Pinyon Script', sans-serif;
 
 // Theme variables
 $global-secondary-background: #121212;
@@ -22,8 +24,7 @@ $section-danger-color-mode: light;
 
 $background-dark: #000;
 $aticle-title-letter-spacing: -1px;
-
-$font-san-serif: system-ui;
+                                                
 $lh-l: 1.8;
 $color-dark: #000;
 $navbar-background: $global-primary-background;
@@ -76,7 +77,7 @@ $container-small-max-width: 1000px;
 $container-xsmall-max-width: 778px;
 $grid-large-gutter-horizontal: 100px;
 
-$card-title-font-size: 2.125rem;
+$card-title-font-size: 2rem;
 $card-title-line-height: 1.2;
 
 $card-body-padding-horizontal-l: $global-gutter;
@@ -110,7 +111,7 @@ $nav-default-item-hover-color: $global-primary-background;
 $nav-default-item-active-color: $global-primary-background;
 
 $navbar-nav-item-height: 48px;
-$navbar-background: #fff;
+$navbar-background: rgba(249,248,245,1);
 $navbar-nav-item-color: $color-dark;
 $navbar-nav-item-hover-color: $global-primary-background;
 $navbar-nav-item-active-color: $global-primary-background;

@@ -1,8 +1,9 @@
 ---
 title: Freelancers to reach 50 percent of work force by 2020
 image: https://source.unsplash.com/C3V88BOoRoM/1000x750
-categories: [travel, business]
-author: john
+categories: [lifestyle]
+tag: [spotlight]
+author: anna
 ---
 
 Into present as we from control as dedicated times of the in distribution you it rationale if which avoid worries can conduct, their design at you screen kind.

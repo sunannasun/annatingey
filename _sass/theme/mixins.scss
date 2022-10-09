@@ -55,7 +55,7 @@
 
 @mixin hook-card-misc(){
   .card-title-small {
-      font-size: 1.75rem;
+      font-size: 1.7rem;
       line-height: 1.2;
       margin-bottom: 15px;
       margin-top: 0;
@@ -309,6 +309,7 @@ header .uk-sticky-fixed {
     &:hover {
       color: $color-dark;
     }
+    font-family: $font-san-serif;
   }
     .font-smoothing {
         -webkit-font-smoothing: antialiased;
@@ -408,10 +409,10 @@ header .uk-sticky-fixed {
       }
     }
     .uk-logo {
-      font-weight: 800;
+      font-weight: 300;
     }
     header .uk-logo {
-      font-size: 2.75rem;
+      font-size: 1.8rem;
     }
     .header-wrapper {
       height: calc(100% - #{$navbar-nav-item-height * 2});
@@ -432,6 +433,7 @@ header .uk-sticky-fixed {
     }
     .section-title {
         font-size: 2.25rem;
+        font-family: $font-section-title;
     }
     header {
         .hero-search {

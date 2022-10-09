@@ -2,23 +2,15 @@
 - title: Home
   url: /
 
-- title: Blog
-  url: /blog/
+- title: Dining
+  url: /category/dining/
 
-- title: Business
-  url: /category/business/
+- title: Entertaining
+  url: /category/entertaining/
 
-- title: Culture
-  url: /category/culture/
-
-- title: Travel
-  url: /category/travel/
-
-- title: Sport
-  url: /category/sport/
+- title: Decor
+  url: /category/decor/
 
 - title: Contact
   url: /contact/
   
-- title: 404
-  url: /404/
